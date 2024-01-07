@@ -1,0 +1,19 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(5, 150px);
+    
+    
+}
+.main div{
+    border: 1px solid blue;
+    
+}   
+#header{
+    grid-column-start:1;
+    grid-column-end: 6;
+}
+#nav{
+    grid-column-start:2 ;
+    grid-column-end: 6;
+}
