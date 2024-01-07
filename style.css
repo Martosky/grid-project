@@ -1,9 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 193, 193);
+}
 .main{
     display: grid;
     grid-template-columns: repeat(5, 200px);
     grid-template-rows: repeat(5, 150px);
+    gap: 15px;
+    justify-content: center;
     
     
+}
+.room{
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
 }
 .main div{
     border: 1px solid blue;
@@ -12,8 +24,28 @@
 #header{
     grid-column-start:1;
     grid-column-end: 6;
+    background-color: #006157;
 }
 #nav{
     grid-column-start:2 ;
+    grid-column-end: 6;
+    background-color: #642cde;
+}
+#sidebar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-color: #005B94;
+}
+#body{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #7E1DC3;
+}
+#footer{
+    grid-column-start: 1;
     grid-column-end: 6;
 }

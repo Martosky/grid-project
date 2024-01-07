@@ -1,1 +1,2 @@
-working and wrapping my head around grid system
+working and wrapping my head around grid system.
+done with the structure. adding the css property to my grid element.
